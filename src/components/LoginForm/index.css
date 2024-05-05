@@ -1,0 +1,130 @@
+.assess-app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  height: 456px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 38px;
+  width: 77px;
+  margin-bottom: 0px;
+}
+
+.app-name {
+  font-family: 'Futura Md BT';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #263868;
+}
+
+.main-heading {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.login-button {
+  background-color: #263868;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+  width: 360px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1%;
+  color: #7e858e;
+  margin-bottom: 5px;
+}
+
+.user-input {
+  width: 360px;
+  height: 40px;
+  padding: 12px;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: #d7dfe9;
+  border-width: 1px;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  height: 24px;
+  width: 124px;
+}
+
+.checkbox-input {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.show-password-label {
+  font-family: 'HK Grotesk';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.error-msg {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #ef4444;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    max-width: 468px;
+  }
+}

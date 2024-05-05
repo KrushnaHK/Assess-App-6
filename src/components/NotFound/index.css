@@ -1,0 +1,29 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-image {
+  height: 397px;
+  width: 475px;
+  background-size: cover;
+}
+
+.not-found-heading {
+  font-family: 'HK Grotesk';
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #334155;
+}
+
+.not-found-description {
+  font-family: 'HK Grotesk';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748b;
+}

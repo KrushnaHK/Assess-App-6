@@ -1,0 +1,64 @@
+.home-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.instruction-card {
+  box-shadow: 0 4px 16px 0 #7b8794;
+  padding: 10px;
+  height: 450px;
+  width: 535px;
+  border-radius: 8px;
+}
+
+.start-button {
+  width: 171px;
+  margin-left: 20px;
+  height: 44px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  background-color: #164687;
+  padding: 8px 16px 8px 16px;
+  font-size: 16px;
+  font-family: 'Inter';
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.home-page-heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #164687;
+  font-size: 32px;
+  line-height: 37.5px;
+  margin-left: 20px;
+}
+
+.instruction {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28.13px;
+  align-items: center;
+  color: #496387;
+  margin-bottom: 10px;
+}
+
+.span {
+  font-weight: 400;
+}
+
+.wish {
+  font-weight: 400;
+}
+
+.home-page-image {
+  height: 427px;
+  width: 568px;
+  margin-left: 40px;
+}
